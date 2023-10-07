@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="./estudiantes.component.css">
+
+<body> 
+  <div id="fondo">
+    <br>
+    <h1>CINEPOLIS</h1>
+      <br>
+
+      <div class="entradas">
+        <div class="contenedor-entradas">
+          <br>
+          <h2 class="titulo-caja">Entradas</h2>
+          <label for="Nombre" class="col-sm-2 col-form-label">Nombre</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" [(ngModel)]="nombre">
+          </div>
+          <br>
+          <label>Cantidad de compradores</label>
+          <div class="col-sm-10">
+            <input type="text" name="compradores" type="text" class="form-control" [(ngModel)]="compradores">
+          </div>
+          <br>
+          <label>Tarjeta</label>
+          <input type="radio" class="radio" name="tarjeta" value="Si" [(ngModel)]="tarjeta">
+          <label class="si-no">Si</label>
+          <input type="radio" class="radio" name="tarjeta" value="No" [(ngModel)]="tarjeta">
+          <label class="si-no">No</label>
+
+          <br>
+          <label for="cantidad">Cantidad de boletos</label>
+          <div class="col-sm-10">
+            <input type="text" name="cantidad" class="form-control" [(ngModel)]="boletos">
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="salidas">
+      <div class="contenedor-salidas">
+        <br>
+        <h2 class="titulo-caja2">Salidas</h2>
+       <br>
+        <h3 class="titulo-caja2">{{mensajeCompra}} </h3>
+      </div>
+    </div>
+
+    <div class="acciones">
+      <div class="contenedor-acciones">
+        <br>
+        <h2 class="titulo-caja">Acciones</h2>
+        <button (click)="compra()" class="btn btn-primary">Proceder</button>
+        <br><br>
+        <button (click)="cancelar()" class="btn btn-danger">Cancelar</button>
+      </div>
+    </div>
+ 
+</body>    

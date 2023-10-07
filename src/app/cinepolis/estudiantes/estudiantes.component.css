@@ -1,0 +1,99 @@
+
+#fondo{
+    background-image: url("data:image/png;base64,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");
+    background-size: cover;
+    width: 2100px;
+    height: 1000px;
+    margin-left: -30%;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+}
+
+.contenedor-entradas{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 4px solid yellow;
+    width: 600px;
+    text-align: center;
+    margin-left: 10cm;
+}
+
+.contenedor-salidas{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 4px solid yellow;
+    width: 600px;
+    text-align: center; 
+    margin-left: 20cm;
+    margin-top: -24.3cm;
+}
+
+
+.contenedor-acciones{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 4px solid yellow;
+    width: 600px;
+    text-align: center;
+    margin-left: 20cm;
+    margin-top: 1cm;
+}
+
+.titulo-caja{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(89, 233, 41);
+    font-family: 'Righteous', sans-serif;
+}
+
+.form-control{
+    margin-left: 40px;
+}
+
+.si-no{
+    width: 50px;
+    font-family: 'Righteous', sans-serif;
+    font-size: 20px;
+}
+
+.radio{
+    margin: 10px;
+    width: 40px;
+}
+
+h2  {
+    text-align: center;
+    font-family: 'Righteous', sans-serif;
+}
+
+.btn-primary{
+    margin-left: -6cm;
+    width: 200px;
+    height: 40px;
+    font-family: 'Righteous', sans-serif;
+}
+
+.btn-danger{
+    margin-left: 6cm;
+    width: 200px;
+    height: 40px;
+    margin-top: -2.89cm;
+    font-family: 'Righteous', sans-serif;
+}
+
+.titulo-caja2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(89, 233, 41);
+    font-family: 'Righteous', sans-serif;
+}
+
+.total{
+    font-size: 30px;
+    font-family: 'Righteous', sans-serif;
+}
